@@ -9,6 +9,6 @@ router.register(r'visitors', views.VisitorViewSet)
 urlpatterns = [
     path('', include(router.urls)),
     path('admin/', admin.site.urls),
-    path('', views.get_client_request_data, name='landing_page'),
+    path('user/browser/data', views.get_client_request_data, name='landing_page'),
     path('api/', include('rest_framework.urls', namespace='rest_framework'))
 ]
