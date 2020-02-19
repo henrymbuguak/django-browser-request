@@ -71,6 +71,10 @@ To view the data in json, created using django rest framework, visit:
 * [http://127.0.0.1:8000/visitors/](http://127.0.0.1:8000/visitors/) 
 
 
+### Learn more about Django Header Request
+
+* [Django Request and response objects](https://docs.djangoproject.com/en/3.0/ref/request-response/#django.http.HttpRequest.META)
+
 ### Authors
 
 * **Henry Mbugua**
